@@ -25,9 +25,7 @@
     "semantic-ui-react": "^0.68.3",
     "socket.io": "^1.7.3",
     "webpack": "^2.4.1",
-    "socket.io-client": "^1.7.3"
-  },
-  "devDependencies": {
+    "socket.io-client": "^1.7.3",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
