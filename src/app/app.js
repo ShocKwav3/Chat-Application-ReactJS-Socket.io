@@ -19,7 +19,7 @@ import ActionGrade from 'material-ui/svg-icons/action/grade';
 import Snackbar from 'material-ui/Snackbar';
 import { Label } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
-let port = process.env.PORT || 3000;
+let port = 3000;
 
 
 const styles = {
