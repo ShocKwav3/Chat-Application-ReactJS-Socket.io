@@ -19,7 +19,6 @@ import ActionGrade from 'material-ui/svg-icons/action/grade';
 import Snackbar from 'material-ui/Snackbar';
 import { Label } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
-let port = 3000;
 
 
 const styles = {
@@ -57,7 +56,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      socket : io(`http://localhost:${port}`),
+      socket : io(`http://localhost:3000`),
       messages: [],
       name:"",
       uniqueId:"",
