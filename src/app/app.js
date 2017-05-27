@@ -161,7 +161,7 @@ class App extends Component {
         <div className="col-md-8">
         <Paper className="paper_class">
         <Prompt sendNimi={(value) => {this.setName(value);}}/>
-        <h1>Let's Chat</h1>
+        <h1>Lets Chat</h1>
           <div>
             {this.state.name!==""?history:selectUserName}
           </div>
