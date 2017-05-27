@@ -5,7 +5,7 @@ import _ from 'lodash';
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
 import path from 'path';
-let port = 3000;
+let port = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'bundled')));
 app.use(logger('dev'));
