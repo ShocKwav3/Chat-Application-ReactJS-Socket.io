@@ -1,6 +1,8 @@
 # Description
 A simple chat application using ReactJS with [Socket.io](https://socket.io)
 
+[Demo](https://enigmatic-oasis-38540.herokuapp.com/): Running on Heroku
+
 Components used from [material-ui](http://www.material-ui.com) and [semantic-ui](https://react.semantic-ui.com) libraries.
 
 1. Clone the repository
